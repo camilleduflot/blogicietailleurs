@@ -1,0 +1,281 @@
+/*
+Theme Name: Blog D'ici et d'ailleurs
+Theme URI: http://wordpress.org/themes/blogdicietdailleurs
+Author: camilledflt
+Author URI: 
+Description: Thème blog
+Version: 1.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: cool and chic
+Text Domain: twentytwelve
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* =Notes
+
+
+
+/*RESET*/
+h1, h2, h3, h4 {
+	padding:0;
+	margin:0;
+}
+
+
+@media (min-width: 768px) and (max-width: 990px) {
+	nav li{
+		width: 150px;
+	}
+}
+
+@media (min-width: 990px) {
+	nav li{
+		width:183px;
+	}
+}
+
+ol {
+	list-style: none;
+}
+
+
+/* ###############BODY#############################*/
+
+
+body{
+	background-image: url(large_leather/large_leather.png) 
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.img-responsive {
+	display:inline;
+}
+
+.fa {
+	line-height: 3em;
+	font-size: 1.5em;
+	border-radius:50%;
+	border-width: 1px;
+	background-color: #e8e4e1;
+	width: 2em;
+	height:2em;
+}
+
+.inline {
+	display:inline;
+}
+
+
+/* #################HEADER##########################*/
+
+
+header {
+text-align: center;
+}
+
+h1 {
+	color: #FF6A5D;
+	padding: 1em;
+	font-size: 4em;
+	font-family: Lobster, cursive;
+}
+
+a:hover{
+	color: #000010;
+	text-decoration:none;
+}
+
+a {
+	color: #FF6A5D;
+}
+
+
+nav li {
+	display: inline;
+	font-family: Amatic SC, cursive; sans-serif;
+	font-size: 2em;
+	background-color: #d1c2bb;
+}
+
+nav {
+	font-size: 1em;
+	padding-bottom: 2em;
+}
+
+.navbar .navbar-nav{
+	display: inline-block;
+	float: none;
+}
+
+.navbar .navbar-collapse{
+	text-align: center;
+}
+
+.navbar.navbar-default{
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	background-image: none;
+	background-color: #d1c2bb;
+	padding-bottom: 0;
+}
+
+
+/*#################SECTION#####################*/
+
+
+section h2 a {
+	color: #754253;
+	margin: 0.5em auto;
+	font-family: Lobster, cursive;
+}
+
+section h2 {
+	color: #754253;
+	margin: 0.5em auto;
+	font-family: Lobster, cursive;
+}
+
+
+.date {
+	font-family: Josefin Sans, sans-serif;
+	padding: 1em;
+}
+
+section .align-right {
+	text-align: right;
+	color: #000010;
+}
+
+.suivants {
+	display: block;
+}
+
+
+
+
+/*#################ASIDE#####################*/
+
+.rs{
+	color: #626373;
+}
+
+section, aside {
+	margin:1em auto 2em auto;
+}
+
+aside .fa {
+	padding: 0 0.4em;
+	line-height: 2em;
+}
+
+aside h3 {
+	padding: 1.5em 0 1em 0;
+}
+
+.barrerecherche{
+	padding: 3em 0;
+	font-family: Lobster, cursive;
+}
+
+h3 {
+	font-family: Lobster, cursive;
+	line-height:3em;
+}
+
+aside .blogroll {
+	color: #000000;
+}
+
+
+/*#################FOOTER####################*/
+
+footer{
+	text-align: center;
+	background-color: #e8e4e1; 
+	padding-top: 2em;
+	font-family: Lobster, cursive;
+	font-size: 1.1em;
+}
+
+footer .fa {
+	padding: 0 1em;
+}
+
+.copyright {
+	padding: 1em 0;
+	font-size: 1.1em;
+}
+
+
+
+
+/*################PAGE CATEGORIE#######################################*/
+
+
+.barrecategorie{
+	font-size: 2em;
+	background-color: #a7a7af;
+}
+
+.voyages {
+	font-family: Amatic SC, cursive; sans-serif;
+	font-weight: bold;
+}
+
+.excerpt {
+	padding: 1em;
+}
+
+
+
+
+
+/*#####################PAGE ARTICLE#####################################*/
+
+.commentaire{
+	padding:4em 0;
+}
+
+section .fa{
+	font-size: 1em;
+	padding: 0 1em;
+}
+
+article .fa {
+	font-size: 1em;
+	line-height: 2.2em;
+	padding: 0;
+	left:28%;
+}
+
+.vousaimerez{
+	font-style: bold;
+}
+
+.middle {
+	font-size: 1em;
+	line-height: 2.2em;
+	padding: 0;
+	left:28%;
+}
+
+.wp_rp_publish_date{
+	font-family: Josephin Sans, sans-serif;
+}
+
+
+
+
+
+
+
+
